@@ -1,6 +1,5 @@
 import dropbox
 import PyPDF2
-import os
 
 class DropboxClient:
     def __init__(self, access_token):
