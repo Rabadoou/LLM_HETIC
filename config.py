@@ -1,8 +1,7 @@
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
-DROPBOX_ACCESS_TOKEN = os.getenv("sl.CBMYlRjEHLdD1BU3OSg9hZA2MWmujwamJ3qjQXJhj03ASAn-r-XgzYO-0oo9jLxxkrKTAFiGdRm9EgLrQ2eaKth9RkiTLcBeJr0Hp-0nciNFjuqPRDYgfaUthgP43S80fMw2-tW-gN99")
+DROPBOX_ACCESS_TOKEN = ("sl.CBOF6eD65Szij_9WPmNCmYyqOp2aqyzow4e_NwIvxl0HZQ5Dqsg96S1dUveoIpTrFG-aakiK-Z9MSQ4TV9_0VfV4dfoV77V_vCY0zfMLOF1UEvy2hPDjpbYGoNdk7SDSBUcSQhyduLSg")
 
 DEFAULT_TEMPERATURE = 37   
