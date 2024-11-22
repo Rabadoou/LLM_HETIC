@@ -21,7 +21,7 @@ def ask_without_rag(question):
     try:
         print("Envoi de la question à Ollama sans RAG...")
         response = ollama.chat(
-            model="llama3.2",  # Vérifiez que c'est bien le modèle correct
+            model="llama3.2",  
             messages=[{"role": "user", "content": question}]
         )
         return response['message']['content'].strip()
