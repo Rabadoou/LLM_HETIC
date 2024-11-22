@@ -6,3 +6,8 @@ Ce projet implémente un chatbot utilisant la technique Retrieval-Augmented Gene
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Infos suplementaire 
+
+Les reponses prennent un peu de temps, un peu de patience s'il vous plait  
